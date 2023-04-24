@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     padding: 0px;
     font-family: helvetica;
+    background-color: #D8D8D8;
 }
 
 #container {
@@ -14,22 +15,23 @@ body {
 }
 
 #login {
-    background-color: white;
+    background-color: #f2ff00;
     width: 380px;
     margin-left: 305px;
-    box-shadow: 0px 0px 10px 0px #D8D8D8;
+    box-shadow: 0px 0px 10px 0px #00000081;
+    border-radius: 8px;
 }
 
 #login p {
-    color: #FA8258;
+    color: #000000;
     font-weight: bold;
 }
 
 #login #login_label {
-    color: #FA8258;
+    color: #000000;
     padding: 20px;
     font-size: 25px;
-    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #5a5a5a;
     font-weight: bold;
 }
 
@@ -46,10 +48,11 @@ input[type="password"] {
     margin-top: 10px;
     width: 300px;
     height: 40px;
-    background-color: #FA8258;
+    background-color: #9acd31;
     border: none;
-    color: white;
-    box-shadow: 0px 3px 0px 0px #FE642E;
+    color: rgb(0, 0, 0);
     border-radius: 3px;
+    border: #000000 2px solid;
     font-weight: bold;
+    cursor: pointer;
 }

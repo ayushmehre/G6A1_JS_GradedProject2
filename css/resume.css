@@ -1,7 +1,5 @@
 body {
-	margin: 5px;
 	height: 120vh;
-	border: 5px solid #000;
 }
 
 p {
@@ -14,6 +12,7 @@ p {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 button {
@@ -42,7 +41,6 @@ button {
 }
 
 .container {
-	height: 100%;
 	width: 100vw;
 	display: grid;
 	align-items: center;
@@ -52,7 +50,7 @@ button {
 .container-body {
 	overflow-y: auto;
 	height: 100vh;
-	width: 80vw;
+	width: 60vw;
 	border-radius: 5px;
 	box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
 }
@@ -76,7 +74,7 @@ button {
 	flex-grow: 1;
 	font-size: larger;
 	font-weight: bolder;
-	background-color: #A4E4F4;
+	background-color: #d1f6f0;
 }
 
 .image {}
@@ -89,10 +87,11 @@ button {
 
 .personal {
 	height: auto;
-	width: 20vw;
-	background-color: #DAF7A6;
+	width: 15vw;
+	background-color: #f8e2e2;
 	text-align: right;
 	padding: 5px;
+	margin-right: 8px;
 }
 
 .professional {
@@ -144,4 +143,8 @@ h2 {
 
 .no-result-text {
 	font-size: 30px;
+}
+
+#name {
+	margin-top: 25px;
 }
